@@ -9,17 +9,27 @@
 		      background-color: #343a40ee;
 		    }
 
-		    .wekl {
-		      font-size: 2.2em;
-		      font-weight: 400;
-		      color: #ffffff;
-		      line-height: 100%;
-		      text-align: center;
+		    .center-container
+		    { 
+		    	width: 100%;
+		    	height: 100vh;
+	    	  	display: -webkit-box;
+		    	display: -ms-flexbox;
+		    	display: flex;
+		    	-webkit-box-align: center;
+		    	-ms-flex-align: center;
+		    	align-items: center;
+		    	-webkit-box-pack: center;
+		    	-ms-flex-pack: center;
+		    	justify-content: center; 
 		    }
 		</style>
 	</head>
 
 	<body>
-		<img id="projectBanner" src="static/TeamTapeIcon_2.png"/>
+		<div class="center-container">
+			<img class ="centerImage" id="projectBanner" src="static/TeamTapeIcon_2.png"/>
+		</div>
+		
 	</body>
 </html>
