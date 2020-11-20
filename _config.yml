@@ -21,8 +21,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   presentations on various topics and game jams every semester
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "//team-tape.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ritgamedev
-github_username:  RITGameDev
 
 # Build settings
 markdown: kramdown
