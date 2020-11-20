@@ -124,7 +124,7 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after {
 
 /* Link styles */
 a {
-  color:#26C6DA;
+  color:#fe496e;
   font-family: 'Open Sans', sans-serif;
   opacity: 0.8;
   z-index: 10; /*or whatever number that is a positive real number. */
@@ -138,7 +138,7 @@ a:hover {
 
 a:active {
   opacity: .5;
-  color:#26C6DA;
+  color:#fe496e;
 }
 
 a:link{
