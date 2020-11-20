@@ -6,6 +6,4 @@ categories: resources
 author: hyeon
 ---
 
-## Preparing content
- 
 Preparing content
