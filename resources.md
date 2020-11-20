@@ -2,9 +2,8 @@
 layout: default
 ---
 
-# Club Presentations
+# Announcement
 
-Check out our club presentations as well as follow up resources and challenges
 
 <div id="posts">
   {% for post in site.categories.resources %}
