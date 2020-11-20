@@ -4,13 +4,9 @@ layout: default
 
 <img id="projectBanner" src="media/teamtape_logo.png"/>
 
-## <i class="material-icons">help_outline</i> Who are we?
+## <i class="material-icons">help_outline</i> Introducing team TAPE
 
-RIT Game Dev club provides an open, creative, learning environment for students passionate about game development with weekly presentations on various topics and game jams every semester
-
-## <i class="material-icons">accessibility_new</i> But... I don't know how to make games?
-
-There is no prior knowledge required to come to the club! New members are always welcome, from Computer Science to Imaging Science. 
+team TAPE is a indie studio founded in 2020 by Eunil and Hyeon, who were the creator of Tape it Up!, the successful casual game that published by Devsisters.
 
 <!---
 ## <i class="material-icons">highlight</i> Meeting Topics
