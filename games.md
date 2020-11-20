@@ -7,7 +7,6 @@ layout: default
 
   {% for post in site.categories.games %}
     <a href="{{ site.url }}{{ post.url }}"><h2>{{ post.title }}</h2></a>
-    <p class="post-meta">
     <p> {{ post.excerpt }} </p>
   {% endfor %}
 
