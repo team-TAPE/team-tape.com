@@ -16,9 +16,7 @@
 title: team TAPE
 email: contact@team-tape.com
 description: >- # this means to ignore newlines until "baseurl:"
-  RIT Game Dev club provides an open, creative, learning environment 
-  for students passionate about game development with weekly 
-  presentations on various topics and game jams every semester
+    team TAPE
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "//team-tape.com" # the base hostname & protocol for your site, e.g. http://example.com
 
