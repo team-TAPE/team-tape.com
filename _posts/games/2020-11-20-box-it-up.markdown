@@ -6,4 +6,4 @@ categories: games
 author: hyeon
 ---
 
-![Box it up! Image]({{ site.url }}\media\post_content\TIU_Presentation.jpg)
+![Box it up! Image]({{ site.url }}\media\post_content\TIU_Presentation.png)
