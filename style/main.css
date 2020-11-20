@@ -19,7 +19,7 @@ h1, h2, h3, h4 {
 
 p, ul, li {
   font-family: 'Source Sans Pro', sans-serif;
-  color: #dadada;
+  color: #cccccc;
   opacity: 1.0;
 }
 
@@ -59,7 +59,7 @@ div.container {
   	padding-top: 1em;
     padding-bottom: 1em;
   	text-align: center;
-    border-bottom: 2px solid rgba(255, 255, 255, .4);
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
 }
 
 div.container a {
@@ -103,7 +103,7 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after {
   width: 800px;
   padding-left: 50px;
   padding-right: 50px;
-  padding-bottom: 3em;
+  padding-bottom: 1em;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -160,7 +160,7 @@ footer {
     margin: 0 auto;
     padding-bottom: 2em;
     text-align: center;
-    border-top: 2px solid rgba(255, 255, 255, .4);
+    border-top: 2px solid rgba(255, 255, 255, .2);
 }
 
 footer img {
