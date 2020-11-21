@@ -143,8 +143,11 @@ a:active {
 }
 
 a:link{
-  opacity: .7;
-  color:#fe496e;
+  border-bottom: 2px dotted #d1d1d1;
+  color: #667cbd;
+  display: block;
+  margin: 8px;
+  padding-top: 12px;
 }
 
 a:visited{
