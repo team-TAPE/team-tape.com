@@ -2,9 +2,9 @@
 layout: default
 ---
 
-# Announcement
+# Club Presentations
 
-Check out our announcement
+Check out our club presentations as well as follow up resources and challenges
 
 <div id="posts">
   {% for post in site.categories.resources %}
@@ -15,7 +15,7 @@ Check out our announcement
         {{ post.date | date: date_format }}
       </time></p>
     <p> {{ post.excerpt }} </p>
-    <br>
+    <hr>
   {% endfor %}
 
 </div> <!-- End Posts -->
