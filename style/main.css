@@ -143,21 +143,21 @@ a:hover {
 a:active {
   text-decoration:none; 	  
   color: #fe496e;
-  border-bottom:1px solid #e81574; 	
+  border-bottom:1px solid #fe496e; 	
   padding-bottom:3px;
 }
 
 a:link{
   text-decoration:none; 	  
   color: #fe496e;
-  border-bottom:1px solid #e81574; 	
+  border-bottom:1px solid #fe496e; 	
   padding-bottom:3px;
 }
 
 a:visited{
   text-decoration:none; 	  
   color: #fe496e;
-  border-bottom:1px solid #e81574; 	
+  border-bottom:1px solid #fe496e; 	
   padding-bottom:3px;
 }
 
