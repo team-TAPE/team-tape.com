@@ -6,3 +6,5 @@ categories: resources
 author: hyeon
 ---
 ![Open! Image]({{ site.url }}\media\post_content\open.PNG =800x)
+
+<img src="{{ site.url }}\media\post_content\open.PNG" width="800" />
