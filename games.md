@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div id="posts">
+<div class="postsContainer" id="posts">
   <h1>Games</h1>
 
   {% for post in site.categories.games %}
