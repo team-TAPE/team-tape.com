@@ -134,22 +134,30 @@ a {
 }
 
 a:hover {
-  color: #e81574;
+  text-decoration:none; 
+  border-bottom:1px solid #e81574; 
+  padding-bottom:3px;
 }
 
 a:active {
   opacity: .5;
-  color:#fe496e;
+  text-decoration:none; 
+  border-bottom:1px solid #fe496e; 
+  padding-bottom:3px;
 }
 
 a:link{
   opacity: .7;
-  color:#fe496e;
+  text-decoration:none; 
+  border-bottom:1px solid #fe496e; 
+  padding-bottom:3px;
 }
 
 a:visited{
   opacity: .5;
-  color:#fe496e;
+  text-decoration:none; 
+  border-bottom:1px solid #fe496e; 
+  padding-bottom:3px;
 }
 
 /* Footer */
