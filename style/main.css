@@ -134,22 +134,31 @@ a {
 }
 
 a:hover {
+  text-decoration:none; 	  
   color: #e81574;
+  border-bottom:1px solid #e81574; 	
+  padding-bottom:3px;
 }
 
 a:active {
-  opacity: .5;
-  color:#fe496e;
+  text-decoration:none; 	  
+  color: #fe496e;
+  border-bottom:1px solid #e81574; 	
+  padding-bottom:3px;
 }
 
 a:link{
-  opacity: .7;
-  color:#fe496e;
+  text-decoration:none; 	  
+  color: #fe496e;
+  border-bottom:1px solid #e81574; 	
+  padding-bottom:3px;
 }
 
 a:visited{
-  opacity: .5;
-  color:#fe496e;
+  text-decoration:none; 	  
+  color: #fe496e;
+  border-bottom:1px solid #e81574; 	
+  padding-bottom:3px;
 }
 
 /* Footer */
