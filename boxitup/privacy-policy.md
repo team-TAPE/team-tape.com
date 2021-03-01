@@ -6,4 +6,4 @@ categories: resources
 author: team TAPE
 ---
 
-<img src="{{ site.url }}\media\post_content\open.PNG" width="800" />
+test
