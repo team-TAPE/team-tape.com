@@ -1,13 +1,8 @@
 ---
-layout: default
+layout: index
 ---
 
-<img id="projectBanner" src="media/teamtape_logo.png"/>
 
-
-## <i class="material-icons">help_outline</i> Introducing team TAPE
-
-Team TAPE is an indie studio founded in 2020 by Eunil and Hyeon, who are the creators of Tape it Up!, the successful casual game that published by Devsisters.
 
 <!---
 ## <i class="material-icons">highlight</i> Meeting Topics

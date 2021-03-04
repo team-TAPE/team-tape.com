@@ -5,10 +5,13 @@
 }
 
 body {
-  overflow-x:hidden;
   /*background-color: white;*/
-  background-color: #1f2529;
-  color: rgba(255,255,255,0.7);
+  margin:0; 
+  padding:0;
+  background-color: rgb(255, 94, 124);
+  color: rgba(255,255,255);
+  text-align: center;
+  display: block;
 }
 
 h1, h2, h3, h4 {
@@ -19,17 +22,8 @@ h1, h2, h3, h4 {
 
 p, ul, li {
   font-family: 'Source Sans Pro', sans-serif;
-  color: #cccccc;
+  color: white;
   opacity: 1.0;
-}
-
-#post-preview {
-  list-style-type: none;
-}
-
-#tools {
-    font-family: 'Overpass', sans-serif;
-    opacity: 0.8;
 }
 
 .container.borderXwidth a div#navText {
@@ -51,15 +45,14 @@ div.container {
     top: 0;
     width: 100%;
     position: sticky;
-    background-color: #1f2529;
+    background-color: rgb(255, 94, 124);
     /*background-color: white;*/
     z-index: 500;
     font-family: Raleway;
     margin: 0 auto;
-  	padding-top: 1em;
+  	padding-top: 3em;
     padding-bottom: 1em;
   	text-align: center;
-    border-bottom: 2px solid rgba(255, 255, 255, .2);
 }
 
 div.container a {
@@ -109,58 +102,81 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after {
   display: block;
 }
 
-#projectBanner {
+#teamBanner {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
-#eventBanner{
-    display: block;
-    float:right;
-    
-    width: 30%;
-    clear: both;
+
+#projectBanner_test {
+  height: 461px;
+  background-image: url('../media/teamTAPE_Banner.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#youtubeBanner {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(226, 60, 92);
+}
+
+#marketLinks {
+  width: 100%;
+  text-align: center;
+}
+
+.responsive {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
 }
 
 /* Link styles */
 a {
-  color:#fe496e;
+  color:white;
   font-family: 'Open Sans', sans-serif;
-  opacity: 0.8;
+  opacity: 1;
   z-index: 10; /*or whatever number that is a positive real number. */
   transition: color .3s ease;
   -moz-transition: color .3s ease;
 }
 
 a:hover {
-  color: #e81574;
+  color: white;
 }
 
 a:active {
-  opacity: .5;
-  color:#fe496e;
+  opacity: 1;
+  color:white;
 }
 
 a:link{
-  opacity: .7;
-  color:#fe496e;
+  opacity: 1;
+  color:white;
 }
 
 a:visited{
-  opacity: .5;
-  color:#fe496e;
+  opacity: 1;
+  color:white;
 }
 
 /* Footer */
 footer {
     width: 100%;
-    background-color: #1f2529;
+    background-color: rgb(255, 94, 124);
     /*background-color: white;*/
     margin: 0 auto;
     padding-bottom: 2em;
     text-align: center;
-    border-top: 2px solid rgba(255, 255, 255, .2);
 }
 
 footer img {
@@ -168,7 +184,6 @@ footer img {
   height: 28px;
   padding-left: 5px;
   padding-right: 5px;
-  filter: brightness(100%) opacity(70%);
 }
 
 /*
@@ -178,7 +193,7 @@ https://perishablepress.com/perfect-pre-tags/
 code, samp, kbd {
     font-family: "Courier New", Courier, monospace, sans-serif;
     text-align: left;
-    color: #555;
+    color: white;
 }
 pre code {
 	line-height: 1.6em;

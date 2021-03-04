@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+
+{%- include head.html -%}
+
+<body>
+
+  <div id="mainContent">
+    {% include navbar.html %}
+  </div>
+
+  <!---
+    teamTAPE Banner
+  --->
+  <div id="teamBanner">
+    <img src="media/teamtape_logo.png" />
+    <div>Hello!</div>
+  </div>
+
+
+  <!---
+    BoxItUp Banner
+  --->
+  <div id="projectBanner_test">
+  </div>
+
+  <!---
+    BoxItUp StoreLine Banner
+  --->
+  <div id="marketLinks">
+      <a href="">
+        <img src="media/google-play-badge.png" class="responsive"></a>
+      </a>
+      <a href="h">
+        <img src="media/google-play-badge.png" class="responsive"></a>
+      </a>
+  </div>
+
+  <!---
+    Youtube
+  --->
+  <div id="youtubeBanner">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3iM_06QeZi8" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+
+  <!---
+    footer
+  --->
+  <div id="mainContent">
+    {%- include footer.html -%}
+  </div>
+
+</body>
+
+</html>
