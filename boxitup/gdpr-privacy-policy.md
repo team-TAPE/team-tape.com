@@ -1,4 +1,3 @@
-
 ---
 layout: privacy-policy
 title:  "gdpr-privacy-policy"
