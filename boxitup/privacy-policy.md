@@ -31,6 +31,7 @@ Link to privacy policy of third party service providers used by the app
 *   [Facebook](https://www.facebook.com/about/privacy/update/printable)
 *   [Unity](https://unity3d.com/legal/privacy-policy)
 *   [Vungle](https://vungle.com/privacy/)
+*   [Mopub](https://www.mopub.com/en/legal/privacy)
 
 **Log Data**
 
