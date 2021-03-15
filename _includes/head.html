@@ -1,16 +1,189 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="{{ site.url }}/style/main.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  {%- seo -%}
-  <!--<link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}"> -->
-  {%- feed_meta -%}
+    <meta charset="utf-8">
+    <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
 
-  {% if jekyll.environment == 'production' %}
-    {% include analytics.html %}
-  {% endif %}
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,user-scalable=no">
 
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="Assets/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="Assets/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff5e7c">
+    <meta name="theme-color" content="#ff5e7c">
 
+    <meta property="og:image" content="https://team-tape.com/Assets/Web_BIU_Cover.png">
+    <meta property="og:image:width" content="1920">
+    <meta property="og:image:height" content="465">
+    <meta name="apple-itunes-app" content="app-id=1548617461">
+
+    <style amp-boilerplate>
+        body {
+            -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            animation: -amp-start 8s steps(1, end) 0s 1 normal both
+        }
+        
+        @-webkit-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+            to {
+                visibility: visible
+            }
+        }
+        
+        @-moz-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+            to {
+                visibility: visible
+            }
+        }
+        
+        @-ms-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+            to {
+                visibility: visible
+            }
+        }
+        
+        @-o-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+            to {
+                visibility: visible
+            }
+        }
+        
+        @keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+            to {
+                visibility: visible
+            }
+        }
+    </style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+    <title>team TAPE</title>
+
+    <!-- <link rel="canonical" href="http://tape-it-up.com/en" />
+    <meta property="og:url" content="http://tape-it-up.com/en"> -->
+    <link rel="stylesheet" href="https://use.typekit.net/pji2cta.css">
+
+    <meta name=" description " content="You have to tape up all these boxes REAL QUICK! ">
+    <meta property="og:description " content="You have to tape up all these boxes REAL QUICK! ">
+    <style amp-custom>
+        body {
+            background-color: #ff5e7c;
+            color: white;
+            text-align: center;
+            padding-top: 25px;
+            padding-bottom: 40px;
+            margin: 0;
+            font-size: 0;
+        }
+        
+        .highlight {
+            background-color: #e23c5c;
+        }
+        
+        .seperator {
+            margin: 0 15px;
+        }
+        
+        .navbar-link {
+            color: white;
+            padding: 40px 50px;
+            margin: 7px auto;
+            display: inline-block;
+        }
+        
+        .navbar-link a:visited {
+            color: white;
+        }
+        
+        .navbar-link a {
+            color: white;
+            text-decoration: none;
+            font-family: "lores-9-plus-narrow", sans-serif;
+            font-size: 28px;
+            position: relative;
+            z-index: 0;
+            cursor: pointer;
+        }
+        
+        .logo {
+            padding: 70px 50px;
+        }
+        
+        .logo-image-container {
+            max-width: 285px;
+            margin: 0 auto;
+        }
+        
+        .logo-contents-container {
+            font-family: "lores-9-plus-narrow", sans-serif;
+            text-align: center;
+            font-size: 18px;
+            line-height: 27px;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px 10px;
+        }
+        
+        .biu-image-container {
+            height: 461px;
+            background-image: url('../media/teamTAPE_Banner.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+        .footer {
+            font-family: "lores-9-plus-narrow", sans-serif;
+            text-align: center;
+            font-size: 15px;
+            line-height: 20px;
+            margin: 0 auto;
+            padding: 5px 5px;
+        }
+        
+        a.footer-link {
+            color: white;
+            font-size: 17px;
+            text-decoration: none;
+        }
+        
+        .store-links {
+            margin: 50px auto 50px;
+            overflow: hidden;
+            width: 90%;
+            max-width: 500px;
+        }
+        
+        .store-links a {
+            width: 46%;
+            float: left;
+            padding: 0 2%;
+        }
+        
+        .boxitup-video {
+            position: relative;
+        }
+        
+        .social-links {
+            padding: 20px;
+        }
+        
+        .social-links amp-img {
+            margin: 0px 5px;
+        }
+    </style>
 </head>

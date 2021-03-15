@@ -1,43 +1,48 @@
 @import url('https://fonts.googleapis.com/css?family=Overpass|Source+Sans+Pro');
-
 * {
-  font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 body {
-  /*background-color: white;*/
-  margin:0; 
-  padding:0;
-  background-color: rgb(255, 94, 124);
-  color: rgba(255,255,255);
-  text-align: center;
-  display: block;
+    /*background-color: white;*/
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 94, 124);
+    color: rgba(255, 255, 255);
+    text-align: center;
+    display: block;
 }
 
-h1, h2, h3, h4 {
-  font-family: 'Overpass', sans-serif;
-  color: rgba( 255, 255, 255 );
-  opacity: 0.8;
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Overpass', sans-serif;
+    color: rgba( 255, 255, 255);
+    opacity: 0.8;
 }
 
-p, ul, li {
-  font-family: 'Source Sans Pro', sans-serif;
-  color: white;
-  opacity: 1.0;
+p,
+ul,
+li {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    opacity: 1.0;
 }
 
 .container.borderXwidth a div#navText {
-  display: flex;
+    display: flex;
 }
 
 #navText .material-icons {
-  padding-right: .125em;
+    padding-right: .125em;
 }
 
 .container {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
+
 
 /** CSS transitions from here: https://codepen.io/EvyatarDa/pen/waKXMd */
 
@@ -50,9 +55,9 @@ div.container {
     z-index: 500;
     font-family: Raleway;
     margin: 0 auto;
-  	padding-top: 3em;
+    padding-top: 3em;
     padding-bottom: 1em;
-  	text-align: center;
+    text-align: center;
 }
 
 div.container a {
@@ -66,7 +71,8 @@ div.container a {
     cursor: pointer;
 }
 
-div.borderXwidth a:before, div.borderXwidth a:after {
+div.borderXwidth a:before,
+div.borderXwidth a:after {
     position: absolute;
     opacity: 0;
     width: 0%;
@@ -86,90 +92,97 @@ div.borderXwidth a:after {
     bottom: 0px;
 }
 
-div.borderXwidth a:hover:before, div.borderXwidth a:hover:after {
+div.borderXwidth a:hover:before,
+div.borderXwidth a:hover:after {
     opacity: 0.7;
     width: 100%;
 }
 
+
 /* Main Content */
+
 #mainContent {
-  width: 800px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 1em;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+    width: 800px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 #teamBanner {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
-
 #projectBanner_test {
-  height: 461px;
-  background-image: url('../media/teamTAPE_Banner.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+    height: 461px;
+    background-image: url('../media/teamTAPE_Banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #youtubeBanner {
-  display: block;
-  width: 100%;
-  text-align: center;
-  background-color: rgb(226, 60, 92);
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(226, 60, 92);
 }
 
 #marketLinks {
-  width: 100%;
-  text-align: center;
+    width: 100%;
+    text-align: center;
 }
 
 .responsive {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  width: 100%;
-  max-width: 250px;
-  height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
 }
 
+
 /* Link styles */
+
 a {
-  color:white;
-  font-family: 'Open Sans', sans-serif;
-  opacity: 1;
-  z-index: 10; /*or whatever number that is a positive real number. */
-  transition: color .3s ease;
-  -moz-transition: color .3s ease;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 1;
+    z-index: 10;
+    /*or whatever number that is a positive real number. */
+    transition: color .3s ease;
+    -moz-transition: color .3s ease;
 }
 
 a:hover {
-  color: white;
+    color: white;
 }
 
 a:active {
-  opacity: 1;
-  color:white;
+    opacity: 1;
+    color: white;
 }
 
-a:link{
-  opacity: 1;
-  color:white;
+a:link {
+    opacity: 1;
+    color: white;
 }
 
-a:visited{
-  opacity: 1;
-  color:white;
+a:visited {
+    opacity: 1;
+    color: white;
 }
+
 
 /* Footer */
+
 footer {
     width: 100%;
     background-color: rgb(255, 94, 124);
@@ -180,46 +193,58 @@ footer {
 }
 
 footer img {
-  width: 28px;
-  height: 28px;
-  padding-left: 5px;
-  padding-right: 5px;
+    width: 28px;
+    height: 28px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
+
 
 /*
 I grabbed the following code / pre tag stuff from this blog:
 https://perishablepress.com/perfect-pre-tags/
 */
-code, samp, kbd {
+
+code,
+samp,
+kbd {
     font-family: "Courier New", Courier, monospace, sans-serif;
     text-align: left;
     color: white;
 }
+
 pre code {
-	line-height: 1.6em;
-	font-size: 11px;
-}
-pre {
-	padding: 0.1em 0.5em 0.3em 0.7em;
-	border-left: 11px solid #ccc;
-	margin: 1.7em 0 1.7em 0.3em;
-	overflow: auto;
-	width: 93%;
-}
-/* target IE7 and IE6 */
-*:first-child+html pre {
-	padding-bottom: 2em;
-	overflow-y: hidden;
-	overflow: visible;
-	overflow-x: auto;
-}
-* html pre {
-	padding-bottom: 2em;
-	overflow: visible;
-	overflow-x: auto;
+    line-height: 1.6em;
+    font-size: 11px;
 }
 
+pre {
+    padding: 0.1em 0.5em 0.3em 0.7em;
+    border-left: 11px solid #ccc;
+    margin: 1.7em 0 1.7em 0.3em;
+    overflow: auto;
+    width: 93%;
+}
+
+
+/* target IE7 and IE6 */
+
+*:first-child+html pre {
+    padding-bottom: 2em;
+    overflow-y: hidden;
+    overflow: visible;
+    overflow-x: auto;
+}
+
+* html pre {
+    padding-bottom: 2em;
+    overflow: visible;
+    overflow-x: auto;
+}
+
+
 /* Tablet kinda adjustments */
+
 @media screen and (max-width: 910px) {
     #mainContent {
         width: 100%;
@@ -228,35 +253,31 @@ pre {
         margin-left: 0;
         margin-right: 0;
     }
-
     #mainContent img {
         width: 300px;
     }
-    
-    #eventBanner{
+    #eventBanner {
         float: none;
         width: 100%
     }
-    
 }
 
+
 /** Moible adjustments */
+
 @media screen and (max-width: 400px) {
     .nav-items {
         text-align: center;
     }
-
     .nav-bucket {
         padding: 5px;
         float: none;
     }
-
     #mainContent {
         width: 100%;
         padding-left: 5px;
         padding-right: 5px;
     }
-
     #mainContent img {
         width: 270px;
     }

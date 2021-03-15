@@ -1,54 +1,56 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+<!doctype html>
+<html amp lang="en">
 
 {%- include head.html -%}
 
 <body>
-
-  <div id="mainContent">
     {% include navbar.html %}
-  </div>
 
-  <!---
-    teamTAPE Banner
-  --->
-  <div id="teamBanner">
-    <img src="media/teamtape_logo.png" />
-    <div>Hello!</div>
-  </div>
+    <div class="logo">
+        <div class="logo-image-container">
+            <amp-img src="/Assets/Web_TT_Logo.png" width="285" height="160" layout="responsive"></amp-img>
+        </div>
+        <div class="logo-contents-container">
+            <p>Hello! We are team TAPE, an indie studio founded in 2020 by the developer of Tape it up!</p>
+        </div>
+
+    </div>
+
+    <div class="biu-image-container">
+    </div>
 
 
-  <!---
-    BoxItUp Banner
-  --->
-  <div id="projectBanner_test">
-  </div>
+    <div class="store-links">
+        <a href="https://itunes.apple.com/app/apple-store/id1548617461">
+            <amp-img src="/Assets/Web_Btn_Appstore.png" width="412" height="123" layout="responsive"></amp-img>
+        </a>
+        <a href="http://play.google.com/store/apps/details?id=com.teamtape.boxitup">
+            <amp-img src="/Assets/Web_Btn_Googleplay.png" width="412" height="123" layout="responsive"></amp-img>
+        </a>
+    </div>
 
-  <!---
-    BoxItUp StoreLine Banner
-  --->
-  <div id="marketLinks">
-      <a href="">
-        <img src="media/google-play-badge.png" class="responsive"></a>
-      </a>
-      <a href="h">
-        <img src="media/google-play-badge.png" class="responsive"></a>
-      </a>
-  </div>
+    <div class="highlight">
+        <div>
+            <amp-youtube data-videoid="nzMiy_1WxWY" width="320" height="568" autoplay class="youtube-video"></amp-youtube>
+        </div>
+    </div>
 
-  <!---
-    Youtube
-  --->
-  <div id="youtubeBanner">
-    <video tabindex="-1"  style="width: 260px; height: 462px; left: 0px; top: 0px;" src="blob:https://www.youtube.com/embed/nzMiy_1WxWY?autoplay=1&mute=1"></video>
-  </div>
+    <div class="social-links">
+        <a href="">
+            <amp-img src="/Assets/Web_Btn_Facebook.png" width="38" height="38"></amp-img>
+        </a>
+        <a href="https://www.youtube.com/channel/UC7COmkHb7tYsxFrS9A_6lcg">
+            <amp-img src="/Assets/Web_Btn_Youtube.png" width="38" height="38"></amp-img>
+        </a>
+        <a href="">
+            <amp-img src="/Assets/Web_Btn_Tweeter.png" width="38" height="38"></amp-img>
+        </a>
+    </div>
 
-  <!---
-    footer
-  --->
-  <div id="mainContent">
-    {%- include footer.html -%}
-  </div>
+    <div class="footer">
+        {%- include footer.html -%}
+    </div>
+
 
 </body>
 
