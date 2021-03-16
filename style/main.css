@@ -122,7 +122,7 @@ div.borderXwidth a:hover:after {
 
 #projectBanner_test {
     height: 461px;
-    background-image: url('../media/teamTAPE_Banner.png');
+    background-image: url('../Assets/Web_BIU_Cover');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -130,6 +130,8 @@ div.borderXwidth a:hover:after {
 
 #youtubeBanner {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
     text-align: center;
     background-color: rgb(226, 60, 92);
