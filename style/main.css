@@ -121,7 +121,7 @@ div.borderXwidth a:hover:after {
 }
 
 #projectBanner_test {
-    height: 461px;
+    height: 465px;
     background-image: url('../Assets/Web_BIU_Cover');
     background-size: cover;
     background-position: center;
@@ -130,7 +130,6 @@ div.borderXwidth a:hover:after {
 
 #youtubeBanner {
     display: block;
-    position: relative;
     width: 100%;
     text-align: center;
     background-color: rgb(226, 60, 92);
